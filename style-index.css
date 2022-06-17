@@ -51,7 +51,7 @@ main {
 .box h3 {
   text-transform: uppercase;
   color: hsl(0, 0%, 95%);
-
+  font-family: "Courier New", Courier, monospace;
   padding: 13px 27px;
   text-align: left;
 }
@@ -91,12 +91,12 @@ main {
 
 @media only screen and (max-width: 1440px) {
   .wrapper {
-      grid-template-rows: 1fr;
+    grid-template-rows: 1fr;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .wrapper {
-      margin: 2rem .5rem;
+    margin: 2rem 0.5rem;
   }
 }
